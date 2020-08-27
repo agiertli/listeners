@@ -1,0 +1,13 @@
+package com.company.service;
+
+public enum BpmEventType {
+	TASK_CREATED,
+	TASK_ASSIGNED,
+	TASK_SUSPENDED,
+	TASK_COMPLETED,
+	PROCESS_CREATED,
+	PROCESS_COMPLETED,
+	SIGNAL_SENT,
+	SIGNAL_RECEIVED;
+
+}
